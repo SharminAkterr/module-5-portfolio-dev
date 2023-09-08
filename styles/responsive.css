@@ -1,0 +1,277 @@
+@media screen and (max-width:768px) {
+
+    /* header start from here */
+    header {
+        margin-bottom: 100px;
+        background-position: bottom right, bottom 1% left 0%;
+        background-size: 100%, 11%;
+    }
+
+    /* nav style start from here  */
+    nav {
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+        padding: 50px 100px 0px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    /* banner section start from here  */
+    .banner-section {
+        margin-top: 60px;
+        flex-direction: column;
+        padding: 40px 0px 0px;
+    }
+
+    .banner-about h3 {
+        font-size: 35px;
+    }
+
+    .banner-about h1 {
+        font-size: 50px;
+    }
+
+    .banner-about p {
+        width: 295px;
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    .two-button {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .banner-image {
+        width: 80%;
+    }
+
+    .banner-image>img {
+        width: 100%;
+    }
+
+    /* about me section style from here  */
+    .about-me-section {
+        height: 800px;
+        margin: 0 auto 100px;
+    }
+
+
+    .about-me p {
+        max-width: 300px;
+        margin: 0 auto;
+    }
+
+    .contact-info {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    /* what-i-do-section start from here */
+    .row {
+        flex-direction: column;
+        gap: 24px;
+        margin-top: 35px;
+        margin-bottom: 100px;
+    }
+
+    /* <!-- A summary of My Resume section start from here --> */
+
+    .resume-details-info {
+        height: auto;
+        flex-direction: column;
+        gap: 50px;
+        margin: 50px 50px 0;
+    }
+
+    .resume-btn {
+        margin: 50px auto 100px;
+    }
+
+    /* <!-- lets connect section start from here  --> */
+    .lets-connect-section {
+        height: 950px;
+        flex-direction: column-reverse;
+        gap: 30px;
+    }
+
+    .lets-connect-info {
+        max-width: 400px;
+    }
+
+    .icons {
+        display: flex;
+        justify-content: center;
+    }
+
+    .form-info {
+        align-items: center;
+    }
+
+    .form-info input {
+        max-width: 300px;
+        height: 50px;
+    }
+
+    .text-sms {
+        max-width: 300px;
+    }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1140px) {
+
+    /* header start from here */
+    header {
+        background-position: bottom right, bottom 15% left 1%;
+        background-size: 60%, 6%;
+    }
+
+    /* nav style start from here  */
+    nav {
+        padding: 50px 100px 0px;
+    }
+
+    /* banner section start from here  */
+    .banner-section {
+        justify-content: space-around;
+        padding: 40px 0px 0px 60px;
+    }
+    .banner-about h3 {
+        font-size: 35px;
+    }
+
+    .banner-about h1 {
+        font-size: 50px;
+    }
+
+    .banner-about p {
+        width: 300px;
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    .two-button {
+        flex-direction: column;
+       
+    }
+
+    .banner-image {
+        width: 50%;
+    }
+
+    .banner-image>img {
+        width: 100%;
+    }
+
+    /* about me section style from here  */
+    .about-me-section {
+        height: 650px;
+        margin: 0 auto 150px;
+    }
+
+
+    .about-me p {
+        max-width: 560px;
+        text-align: justify;
+        margin: 0 auto;
+    }
+
+    .contact-info {
+        flex-wrap: wrap;
+        gap: 50px;
+        margin:20px 170px 0 ;
+    }
+
+    /* what-i-do-section start from here */
+    .row {
+        flex-wrap: wrap;
+        gap: 24px;
+        margin-top: 35px;
+        margin-bottom: 150px;
+    }
+
+    /* <!-- A summary of My Resume section start from here --> */
+
+    .resume-details-info {
+        height: auto;
+        flex-direction: column;
+        gap: 100px;
+        margin: 50px 120px 0;
+    }
+
+    .resume-btn {
+        margin: 50px auto 100px;
+    }
+
+    /* <!-- lets connect section start from here  --> */
+    .lets-connect-section {
+        height: 1000px;
+        flex-direction: column-reverse;
+        gap: 30px;
+    }
+
+    .lets-connect-info {
+        max-width: 550px;
+    }
+
+    .icons {
+        display: flex;
+        justify-content: center;
+    }
+
+    .form-info {
+        align-items: center;
+    }
+
+    .form-info input {
+        width:400px;
+        height: 50px;
+    }
+
+    .text-sms {
+        width: 400px;
+    }
+
+}
+
+@media only screen and (min-width: 1140px) and (max-width: 1450px){
+ /* header start from here */
+ header {
+    background-position: bottom right, bottom 15% left 1%;
+    background-size: 55%, 5%;
+}
+
+/* nav style start from here  */
+nav {
+    padding: 50px 150px 0px;
+}
+
+/* banner section start from here  */
+.banner-section {
+    justify-content: space-between;
+    padding: 40px 0px 0px 120px;
+}
+
+.banner-about p {
+    width: 400px;
+}
+
+.banner-image {
+    width: 46%;
+}
+
+.banner-image>img {
+    width: 90%;
+}
+/* <!-- A summary of My Resume section start from here --> */
+
+.resume-details-info {
+    margin: 113px 55px 0;
+}
+
+}
